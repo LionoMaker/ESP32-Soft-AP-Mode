@@ -3,7 +3,7 @@
 #include "WiFi.h"
  
 const char *ssid = "ESP32_WROOM"; 
-const char *password = "1234";
+const char *password = "12345678"; //use eight character
  
 void setup() {
  
