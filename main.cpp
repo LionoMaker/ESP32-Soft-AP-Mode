@@ -10,6 +10,9 @@ void setup() {
   Serial.begin(115200);
   WiFi.softAP(ssid, password); // connecting to soft AP mode
  
+//  WiFi.mode(WIFI_MODE_AP);
+//  Serial.println(WiFi.softAPmacAddress()); // getting Macaddress
+ 
   Serial.println();
   Serial.print("IP address: ");
   Serial.println(WiFi.softAPIP());
